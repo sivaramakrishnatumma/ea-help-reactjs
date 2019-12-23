@@ -1,0 +1,23 @@
+footer {
+  background: #333a40;
+  position: relative;
+  color: #a6a6a6;
+  padding: 40px 20px;
+  -webkit-font-smoothing: antialiased;
+  font-size: 14px;
+  font-size: calc(1.4rem / 1.6);
+  padding: 40px 120px 5px 120px;
+}
+
+.flex-center {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  align-content: center;
+  /* text-align: center; */
+  justify-content: center;
+}
+
+.flex-center a {
+  color: #fff !important;
+}

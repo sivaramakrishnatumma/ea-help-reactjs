@@ -1,0 +1,18 @@
+.grid-card-grid {
+  padding-top: 20px;
+}
+
+.grid-card-grid span .selected {
+  background: #000;
+  color: #fff;
+}
+
+.grid-card-label {
+  font-weight: 400 !important;
+  font-size: 24px !important;
+  line-height: 32px;
+  margin-bottom: 16px;
+  padding-right: 0;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}

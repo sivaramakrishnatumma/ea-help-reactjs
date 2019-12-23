@@ -1,0 +1,28 @@
+.images-container {
+  padding-left: 100%;
+  padding-right: 100%;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  margin-left: -100%;
+  margin-right: -100%;
+  margin-top: 27px;
+  background-color: rgb(243, 243, 243);
+  overflow-x: hidden;
+}
+
+.images-grid {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.product-item {
+  width: calc((100% / 6) - 20px);
+  min-width: 200px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.product-item img {
+  background: #fff;
+}

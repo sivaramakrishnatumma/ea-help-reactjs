@@ -1,0 +1,43 @@
+.selected-item-container {
+  padding-left: 100%;
+  padding-right: 100%;
+  padding-bottom: 30px;
+  margin-left: -100%;
+  margin-right: -100%;
+  margin-top: 27px;
+  overflow-x: hidden;
+}
+
+.item-grid {
+  display: flex;
+  flex-direction: row;
+}
+
+.item-img {
+  height: 230px;
+  box-shadow: 0 6px 5px 0 rgba(0, 0, 0, 0.5);
+}
+
+.res-image {
+  height: 100% !important;
+  width: auto;
+}
+
+.change-game-block {
+  padding: 6rem 2rem;
+}
+
+.change-game-block a {
+  padding-bottom: 10px;
+  border-bottom: 1px solid #000;
+  color: #000;
+  font-size: 17px;
+  font-weight: 500;
+}
+
+.change-game-block a:hover {
+  text-decoration: none;
+  border-bottom: 1px solid #468ce2;
+  color: #468ce2;
+  cursor: pointer;
+}

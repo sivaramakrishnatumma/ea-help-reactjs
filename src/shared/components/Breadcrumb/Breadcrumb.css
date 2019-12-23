@@ -1,0 +1,14 @@
+.breadcrumb {
+  background-color: rgba(22,22,22,0.6) !important;
+    color: #f3f3f3;
+    border-radius: 0px !important;
+    margin-bottom: 0 !important;
+}
+
+.breadcrumb-item.active, .breadcrumb-item, .breadcrumb a {
+  color: #f3f3f3 !important;
+}
+
+.breadcrumb-item + .breadcrumb-item::before {
+  color: #f3f3f3 !important;
+}

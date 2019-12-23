@@ -1,0 +1,14 @@
+.searchbar-container {
+  position: relative;
+}
+
+.searchbar-container .fa-search {
+  position: absolute;
+  right: 12px;
+  top: 11px;
+  color: #ced4da;
+}
+
+.searchbar-input:focus + .fa-search, .searchbar-input:hover + .fa-search{
+  display: none;
+}

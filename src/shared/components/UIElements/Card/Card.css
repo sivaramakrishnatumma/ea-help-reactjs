@@ -1,0 +1,39 @@
+.title-card {
+  display: -webkit-inline-flex;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 255px;
+  font-size: 16px;
+  padding: 8px;
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-bottom: 32px;
+  text-align: center;
+  vertical-align: top;
+  line-height: 20px;
+  min-height: 56px;
+  height: 40px;
+  margin-top: 0;
+  position: relative;
+  text-decoration: none;
+  border-color: #161616;
+  border: 2px solid;
+  transition: opacity 0.1s;
+}
+
+/* .title-card:nth-child(4n) {
+  margin-right: 0px !important;
+} */
+
+.title-card:hover {
+  bottom: -3px;
+  left: -3px;
+  right: -3px;
+  top: -3px;
+  width: 261px;
+  min-height: 62px;
+  margin-right: 4px;
+  margin-bottom: 26px;
+  cursor: pointer;
+}
