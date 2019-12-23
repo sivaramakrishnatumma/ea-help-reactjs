@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SearchBar component test case should test SearchBar component with default props 1`] = `
+<SearchBar
+  className="search-bar"
+  onKeyPress={[MockFunction]}
+  placeholder="Search for Product"
+>
+  <div
+    className="searchbar-container search-bar"
+  >
+    <input
+      aria-label="Search"
+      className="form-control mr-sm-2 searchbar-input"
+      onChange={[Function]}
+      placeholder="Search for Product"
+      type="search"
+    />
+    <i
+      className="fa fa-search"
+    />
+  </div>
+</SearchBar>
+`;

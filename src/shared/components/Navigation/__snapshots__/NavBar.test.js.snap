@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NavBar component test case should test NavBar component with default props 1`] = `
+<Fragment>
+  <nav
+    className="navbar navbar-expand-lg navbar-dark bg-dark"
+  >
+    <Link
+      className="navbar-brand brand-title"
+      to="/"
+    >
+      <Image
+        className="brand-logo"
+        src="https://eaassets-a.akamaihd.net/eahelp/assets/83.06-RELEASE83/bundles/helpcenter/images/ea-logo.png"
+      />
+      HELP
+    </Link>
+    <Button
+      className="navbar-toggler"
+      onClick={[Function]}
+      type="button"
+    >
+      <span
+        className="navbar-toggler-icon"
+      />
+    </Button>
+    <div
+      className="navbar-collapse collapse"
+      id="navbarNavDropdown"
+    >
+      <NavLinks
+        className="collapse"
+        collapseMenu={[Function]}
+      />
+    </div>
+  </nav>
+</Fragment>
+`;

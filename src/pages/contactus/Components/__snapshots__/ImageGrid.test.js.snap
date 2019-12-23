@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ImageGrid component test case should test ImageGrid component with default props 1`] = `
+<ImageGrid
+  items={
+    Array [
+      Object {
+        "id": "test",
+        "imageUrl": "test-url",
+        "name": "test-name",
+      },
+    ]
+  }
+  onSelect={[MockFunction]}
+>
+  <div
+    className="images-container"
+  >
+    <div
+      className="images-grid"
+    >
+      <div
+        className="product-item"
+        key="test"
+        onClick={[Function]}
+        title="test-name"
+      >
+        <Image
+          src="test-url"
+        >
+          <img
+            className="img-fluid undefined"
+            src="test-url"
+          />
+        </Image>
+      </div>
+    </div>
+  </div>
+</ImageGrid>
+`;

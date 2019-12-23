@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button component test case should test button component with default props 1`] = `
+<Button
+  className="btn-primary"
+  onClick={[MockFunction]}
+  type="submit"
+>
+  <button
+    className="btn btn-primary"
+    onClick={[MockFunction]}
+    type="submit"
+  />
+</Button>
+`;

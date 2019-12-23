@@ -42,6 +42,7 @@ export const topicSelected = topic => {
     topic
   };
 };
+
 export const issueSelected = issue => {
   return {
     type: "ISSUE_SELECTED",
@@ -118,12 +119,6 @@ export const sendEmail = body => {
   return {
     type: "SEND_EMAIL",
     body
-  };
-};
-
-export const sendingEmail = () => {
-  return {
-    type: "EMAIL_SENDING"
   };
 };
 

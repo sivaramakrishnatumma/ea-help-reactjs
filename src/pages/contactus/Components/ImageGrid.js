@@ -17,7 +17,7 @@ const ImageGrid = props => {
                 title={item.name}
                 onClick={() => onSelect(item)}
               >
-                <Image src={item.imageUrl} alt={item.title}></Image>
+                <Image src={item.imageUrl} alt={item.name}></Image>
               </div>
             );
           })}

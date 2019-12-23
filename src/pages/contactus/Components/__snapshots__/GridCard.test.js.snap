@@ -1,0 +1,57 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GridsCard component test case should test GridsCard component with default props 1`] = `
+<GridsCard
+  items={
+    Array [
+      Object {
+        "id": "test",
+        "imageUrl": "test-url",
+        "name": "test-name",
+      },
+    ]
+  }
+  onSelect={[MockFunction]}
+  selectedItem={
+    Object {
+      "id": "test",
+      "imageUrl": "test-url",
+      "name": "test-name",
+    }
+  }
+  title="test-title"
+>
+  <div
+    className="grid-card-container"
+  >
+    <div
+      className="grid-card-label"
+    >
+      Select 
+      test-title
+      *
+    </div>
+    <div
+      className="grid-card-grid"
+    >
+      <span
+        key="0"
+        onClick={[Function]}
+      >
+        <Card
+          className="selected"
+          title="test-name"
+        >
+          <div
+            className="title-card selected"
+          >
+            <span>
+              test-name
+            </span>
+          </div>
+        </Card>
+      </span>
+    </div>
+  </div>
+</GridsCard>
+`;

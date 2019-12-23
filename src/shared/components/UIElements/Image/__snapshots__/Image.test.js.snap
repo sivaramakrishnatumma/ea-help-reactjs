@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Image component test case should test Image component with default props 1`] = `
+<Image
+  alt="submit"
+  className=""
+  src="abc.png"
+>
+  <img
+    className="img-fluid "
+    src="abc.png"
+  />
+</Image>
+`;

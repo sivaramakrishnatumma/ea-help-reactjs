@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home page test case should test Home Page 1`] = `
+<div
+  className="page-container"
+>
+  <h1
+    className="center"
+  >
+    Welcome to EA HELP
+  </h1>
+</div>
+`;

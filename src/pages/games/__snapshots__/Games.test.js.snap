@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Games page test case should test Games Page 1`] = `
+<div
+  className="page-container"
+>
+  <h1
+    className="center"
+  >
+    Games Page
+  </h1>
+</div>
+`;

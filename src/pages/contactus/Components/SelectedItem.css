@@ -27,7 +27,8 @@
   padding: 6rem 2rem;
 }
 
-.change-game-block a {
+
+.change-game-block span {
   padding-bottom: 10px;
   border-bottom: 1px solid #000;
   color: #000;
@@ -35,7 +36,7 @@
   font-weight: 500;
 }
 
-.change-game-block a:hover {
+.change-game-block span:hover {
   text-decoration: none;
   border-bottom: 1px solid #468ce2;
   color: #468ce2;

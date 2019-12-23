@@ -67,7 +67,6 @@ export default (state = intialState, action) => {
         loading: false,
         error: true
       };
-
     case "GET_TOPICS_SUCCESS":
       return {
         ...state,
@@ -80,7 +79,6 @@ export default (state = intialState, action) => {
         loading: false,
         error: true
       };
-
     case "GET_ISSUES_SUCCESS":
       return {
         ...state,
@@ -93,7 +91,6 @@ export default (state = intialState, action) => {
         loading: false,
         error: true
       };
-
     case "SEND_EMAIL_SUCCESS":
       return {
         ...state,

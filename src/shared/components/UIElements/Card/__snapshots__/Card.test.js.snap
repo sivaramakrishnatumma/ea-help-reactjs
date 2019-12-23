@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Card component test case should test card component with default props 1`] = `
+<Card
+  className="my-title"
+  onClick={[MockFunction]}
+  title="Sample Title"
+>
+  <div
+    className="title-card my-title"
+    onClick={[MockFunction]}
+  >
+    <span>
+      Sample Title
+    </span>
+  </div>
+</Card>
+`;

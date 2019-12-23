@@ -14,7 +14,7 @@ const SelectedItem = props => {
             <Image src={imageUrl} alt={name} className="res-image" />
           </div>
           <div className="change-game-block" onClick={onChange}>
-            <a>Change {type}</a>
+            <span>Change {type}</span>
           </div>
         </div>
       </div>
