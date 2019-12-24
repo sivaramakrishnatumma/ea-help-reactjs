@@ -16,10 +16,10 @@ class EmailForm extends Component {
     e.preventDefault();
     const { product, platform, topic, issue } = this.props;
     const body = {
-      product: product.name,
-      platform: platform.name,
-      topic: topic.name,
-      issue: issue.name,
+      product: product && product.name,
+      platform: platform && platform.name,
+      topic: topic && topic.name,
+      issue: issue && issue.name,
       name: this.state.formValues.name,
       email: this.state.formValues.email,
       comments: this.state.formValues.comments

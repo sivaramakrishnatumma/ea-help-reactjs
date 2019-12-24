@@ -1,46 +1,5 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Button component test case should test button component with default props 1`] = `
-<SelectedItem
-  imageUrl="test-url"
-  name="test name"
-  onChange={[MockFunction]}
-  type="test"
->
-  <div
-    className="selected-item-container"
-  >
-    <div
-      className="item-grid"
-    >
-      <div
-        className="item-img"
-      >
-        <Image
-          alt="test name"
-          className="res-image"
-          src="test-url"
-        >
-          <img
-            className="img-fluid res-image"
-            src="test-url"
-          />
-        </Image>
-      </div>
-      <div
-        className="change-game-block"
-        onClick={[MockFunction]}
-      >
-        <span>
-          Change 
-          test
-        </span>
-      </div>
-    </div>
-  </div>
-</SelectedItem>
-`;
-
 exports[`SelectedItem component test case should test SelectedItem component with default props 1`] = `
 <SelectedItem
   imageUrl="test-url"

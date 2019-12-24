@@ -1,0 +1,258 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Email Form test case should test email form 1`] = `
+<Provider
+  store={
+    Object {
+      "clearActions": [Function],
+      "dispatch": [Function],
+      "getActions": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+>
+  <Connect(EmailForm)>
+    <EmailForm
+      dispatch={[Function]}
+    >
+      <form
+        onSubmit={[Function]}
+      >
+        <div
+          className="form-group"
+        >
+          <label
+            htmlFor="name"
+          >
+            Name:
+          </label>
+          <input
+            className="form-control"
+            id="name"
+            onInput={[Function]}
+            placeholder="Please enter your name"
+            type="text"
+          />
+        </div>
+        <div
+          className="form-group"
+        >
+          <label
+            htmlFor="email"
+          >
+            Email address:
+          </label>
+          <input
+            className="form-control"
+            id="email"
+            onInput={[Function]}
+            placeholder="Please enter your email address"
+            type="email"
+          />
+        </div>
+        <div
+          className="form-group"
+        >
+          <label
+            htmlFor="email"
+          >
+            Comments:
+          </label>
+          <textarea
+            className="form-control"
+            id="comments"
+            onInput={[Function]}
+            placeholder="Write your comments"
+            rows="8"
+          />
+        </div>
+        <Button
+          className="btn btn-dark"
+          type="submit"
+        >
+          <button
+            className="btn btn btn-dark"
+            type="submit"
+          >
+            Send Email
+          </button>
+        </Button>
+      </form>
+    </EmailForm>
+  </Connect(EmailForm)>
+</Provider>
+`;
+
+exports[`Email Form test case should test email form input change 1`] = `
+<Provider
+  store={
+    Object {
+      "clearActions": [Function],
+      "dispatch": [Function],
+      "getActions": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+>
+  <Connect(EmailForm)>
+    <EmailForm
+      dispatch={[Function]}
+    >
+      <form
+        onSubmit={[Function]}
+      >
+        <div
+          className="form-group"
+        >
+          <label
+            htmlFor="name"
+          >
+            Name:
+          </label>
+          <input
+            className="form-control"
+            id="name"
+            onInput={[Function]}
+            placeholder="Please enter your name"
+            type="text"
+          />
+        </div>
+        <div
+          className="form-group"
+        >
+          <label
+            htmlFor="email"
+          >
+            Email address:
+          </label>
+          <input
+            className="form-control"
+            id="email"
+            onInput={[Function]}
+            placeholder="Please enter your email address"
+            type="email"
+          />
+        </div>
+        <div
+          className="form-group"
+        >
+          <label
+            htmlFor="email"
+          >
+            Comments:
+          </label>
+          <textarea
+            className="form-control"
+            id="comments"
+            onInput={[Function]}
+            placeholder="Write your comments"
+            rows="8"
+          />
+        </div>
+        <Button
+          className="btn btn-dark"
+          type="submit"
+        >
+          <button
+            className="btn btn btn-dark"
+            type="submit"
+          >
+            Send Email
+          </button>
+        </Button>
+      </form>
+    </EmailForm>
+  </Connect(EmailForm)>
+</Provider>
+`;
+
+exports[`Email Form test case should test email form submit 1`] = `
+<Provider
+  store={
+    Object {
+      "clearActions": [Function],
+      "dispatch": [Function],
+      "getActions": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+>
+  <Connect(EmailForm)
+    dispatch={[MockFunction]}
+  >
+    <EmailForm
+      dispatch={[Function]}
+    >
+      <form
+        onSubmit={[Function]}
+      >
+        <div
+          className="form-group"
+        >
+          <label
+            htmlFor="name"
+          >
+            Name:
+          </label>
+          <input
+            className="form-control"
+            id="name"
+            onInput={[Function]}
+            placeholder="Please enter your name"
+            type="text"
+          />
+        </div>
+        <div
+          className="form-group"
+        >
+          <label
+            htmlFor="email"
+          >
+            Email address:
+          </label>
+          <input
+            className="form-control"
+            id="email"
+            onInput={[Function]}
+            placeholder="Please enter your email address"
+            type="email"
+          />
+        </div>
+        <div
+          className="form-group"
+        >
+          <label
+            htmlFor="email"
+          >
+            Comments:
+          </label>
+          <textarea
+            className="form-control"
+            id="comments"
+            onInput={[Function]}
+            placeholder="Write your comments"
+            rows="8"
+          />
+        </div>
+        <Button
+          className="btn btn-dark"
+          type="submit"
+        >
+          <button
+            className="btn btn btn-dark"
+            type="submit"
+          >
+            Send Email
+          </button>
+        </Button>
+      </form>
+    </EmailForm>
+  </Connect(EmailForm)>
+</Provider>
+`;

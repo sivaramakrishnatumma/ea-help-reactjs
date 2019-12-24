@@ -15,6 +15,8 @@ describe("ImageGrid component test case", () => {
       onSelect: jest.fn()
     };
     const wrapper = mount(<ImageGrid {...props} />);
+    wrapper.find(".product-item").simulate("click");
+    expect(props.onSelect).toHaveBeenCalled();
     expect(wrapper).toMatchSnapshot();
   });
 });

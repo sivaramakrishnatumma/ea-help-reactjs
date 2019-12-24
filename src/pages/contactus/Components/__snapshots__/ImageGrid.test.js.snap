@@ -11,7 +11,25 @@ exports[`ImageGrid component test case should test ImageGrid component with defa
       },
     ]
   }
-  onSelect={[MockFunction]}
+  onSelect={
+    [MockFunction] {
+      "calls": Array [
+        Array [
+          Object {
+            "id": "test",
+            "imageUrl": "test-url",
+            "name": "test-name",
+          },
+        ],
+      ],
+      "results": Array [
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+      ],
+    }
+  }
 >
   <div
     className="images-container"
@@ -26,6 +44,7 @@ exports[`ImageGrid component test case should test ImageGrid component with defa
         title="test-name"
       >
         <Image
+          alt="test-name"
           src="test-url"
         >
           <img

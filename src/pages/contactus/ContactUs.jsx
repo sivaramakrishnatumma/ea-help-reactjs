@@ -81,7 +81,10 @@ class ContactUs extends Component {
                   : products
               }
               title="product"
-              onSelect={product => dispatch(productSelected(product))}
+              onSelect={product => {
+                this.setState({ searchKey: "" });
+                dispatch(productSelected(product));
+              }}
             />
           )}
 
@@ -173,7 +176,6 @@ class ContactUs extends Component {
 }
 
 const mapStateToProps = state => {
-  console.log(state);
   return {
     ...state,
     product: state.selectedProduct,

@@ -16,7 +16,7 @@ import {
   sendEmailError
 } from "../actions/actions";
 
-const baseURL = "http://localhost:5000";
+const baseURL = "https://ea-help-backend.herokuapp.com";
 
 // Sagas
 function* watchFetchProducts() {

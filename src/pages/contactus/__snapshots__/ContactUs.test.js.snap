@@ -1,0 +1,525 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Contact US test case should test contact us page with default values 1`] = `
+<ContextProvider
+  value={
+    Object {
+      "store": Object {
+        "clearActions": [Function],
+        "dispatch": [Function],
+        "getActions": [Function],
+        "getState": [Function],
+        "replaceReducer": [Function],
+        "subscribe": [Function],
+      },
+      "subscription": Subscription {
+        "handleChangeWrapper": [Function],
+        "listeners": Object {
+          "notify": [Function],
+        },
+        "onStateChange": [Function],
+        "parentSub": undefined,
+        "store": Object {
+          "clearActions": [Function],
+          "dispatch": [Function],
+          "getActions": [Function],
+          "getState": [Function],
+          "replaceReducer": [Function],
+          "subscribe": [Function],
+        },
+        "unsubscribe": null,
+      },
+    }
+  }
+>
+  <Connect(ContactUs) />
+</ContextProvider>
+`;
+
+exports[`Contact US test case should test contact us page with product and platforms 1`] = `
+<Provider
+  store={
+    Object {
+      "clearActions": [Function],
+      "dispatch": [Function],
+      "getActions": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+>
+  <BrowserRouter>
+    <Router
+      history={
+        Object {
+          "action": "POP",
+          "block": [Function],
+          "createHref": [Function],
+          "go": [Function],
+          "goBack": [Function],
+          "goForward": [Function],
+          "length": 1,
+          "listen": [Function],
+          "location": Object {
+            "hash": "",
+            "pathname": "/",
+            "search": "",
+            "state": undefined,
+          },
+          "push": [Function],
+          "replace": [Function],
+        }
+      }
+    >
+      <Connect(ContactUs)>
+        <ContactUs
+          dispatch={[Function]}
+          issues={Array []}
+          platforms={Array []}
+          products={Array []}
+          topics={Array []}
+        >
+          <Breadcrumb
+            currentPage="Case Information"
+            items={
+              Array [
+                Object {
+                  "name": "Home",
+                  "path": "/",
+                },
+              ]
+            }
+          >
+            <nav
+              aria-label="breadcrumb"
+            >
+              <ol
+                className="breadcrumb"
+              >
+                <li
+                  className="breadcrumb-item"
+                  key="0"
+                >
+                  <Link
+                    to="/"
+                  >
+                    <LinkAnchor
+                      href="/"
+                      navigate={[Function]}
+                    >
+                      <a
+                        href="/"
+                        onClick={[Function]}
+                      >
+                        Home
+                      </a>
+                    </LinkAnchor>
+                  </Link>
+                </li>
+                <li
+                  aria-current="page"
+                  className="breadcrumb-item active"
+                >
+                  Case Information
+                </li>
+              </ol>
+            </nav>
+          </Breadcrumb>
+          <div
+            className="page_title"
+          >
+            CASE INFORMATION
+          </div>
+          <div
+            className="product_container"
+          >
+            <div
+              className="disclaimer"
+            >
+              *Indicates required field
+            </div>
+            <div
+              className="help-text"
+            >
+              What can we help you with?
+            </div>
+            <div
+              className="help-text"
+            >
+              Select the game or service.*
+            </div>
+            <SearchBar
+              className="search-bar"
+              onKeyPress={[Function]}
+              placeholder="Search any EA product"
+            >
+              <div
+                className="searchbar-container search-bar"
+              >
+                <input
+                  aria-label="Search"
+                  className="form-control mr-sm-2 searchbar-input"
+                  onChange={[Function]}
+                  placeholder="Search any EA product"
+                  type="search"
+                />
+                <i
+                  className="fa fa-search"
+                />
+              </div>
+            </SearchBar>
+            <ImageGrid
+              items={Array []}
+              onSelect={[Function]}
+              title="product"
+            >
+              <div
+                className="images-container"
+              >
+                <div
+                  className="images-grid"
+                />
+              </div>
+            </ImageGrid>
+          </div>
+        </ContactUs>
+      </Connect(ContactUs)>
+    </Router>
+  </BrowserRouter>
+</Provider>
+`;
+
+exports[`Contact US test case should test email success alert close 1`] = `
+<Provider
+  store={
+    Object {
+      "clearActions": [Function],
+      "dispatch": [Function],
+      "getActions": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+>
+  <BrowserRouter>
+    <Router
+      history={
+        Object {
+          "action": "POP",
+          "block": [Function],
+          "createHref": [Function],
+          "go": [Function],
+          "goBack": [Function],
+          "goForward": [Function],
+          "length": 1,
+          "listen": [Function],
+          "location": Object {
+            "hash": "",
+            "pathname": "/",
+            "search": "",
+            "state": undefined,
+          },
+          "push": [Function],
+          "replace": [Function],
+        }
+      }
+    >
+      <Connect(ContactUs)>
+        <ContactUs
+          dispatch={[Function]}
+          isEmailSent={true}
+          issues={Array []}
+          platforms={Array []}
+          products={Array []}
+          topics={Array []}
+        >
+          <Breadcrumb
+            currentPage="Case Information"
+            items={
+              Array [
+                Object {
+                  "name": "Home",
+                  "path": "/",
+                },
+              ]
+            }
+          >
+            <nav
+              aria-label="breadcrumb"
+            >
+              <ol
+                className="breadcrumb"
+              >
+                <li
+                  className="breadcrumb-item"
+                  key="0"
+                >
+                  <Link
+                    to="/"
+                  >
+                    <LinkAnchor
+                      href="/"
+                      navigate={[Function]}
+                    >
+                      <a
+                        href="/"
+                        onClick={[Function]}
+                      >
+                        Home
+                      </a>
+                    </LinkAnchor>
+                  </Link>
+                </li>
+                <li
+                  aria-current="page"
+                  className="breadcrumb-item active"
+                >
+                  Case Information
+                </li>
+              </ol>
+            </nav>
+          </Breadcrumb>
+          <div
+            className="page_title"
+          >
+            CASE INFORMATION
+          </div>
+          <div
+            className="product_container"
+          >
+            <div
+              className="disclaimer"
+            >
+              *Indicates required field
+            </div>
+            <div
+              className="help-text"
+            >
+              What can we help you with?
+            </div>
+            <div
+              className="help-text"
+            >
+              Select the game or service.*
+            </div>
+            <SearchBar
+              className="search-bar"
+              onKeyPress={[Function]}
+              placeholder="Search any EA product"
+            >
+              <div
+                className="searchbar-container search-bar"
+              >
+                <input
+                  aria-label="Search"
+                  className="form-control mr-sm-2 searchbar-input"
+                  onChange={[Function]}
+                  placeholder="Search any EA product"
+                  type="search"
+                />
+                <i
+                  className="fa fa-search"
+                />
+              </div>
+            </SearchBar>
+            <ImageGrid
+              items={Array []}
+              onSelect={[Function]}
+              title="product"
+            >
+              <div
+                className="images-container"
+              >
+                <div
+                  className="images-grid"
+                />
+              </div>
+            </ImageGrid>
+          </div>
+          <div
+            className="alert alert-success"
+            role="alert"
+          >
+            <span
+              className="close"
+              onClick={[Function]}
+            >
+              ×
+            </span>
+            Email sent successfully
+          </div>
+        </ContactUs>
+      </Connect(ContactUs)>
+    </Router>
+  </BrowserRouter>
+</Provider>
+`;
+
+exports[`Contact US test case should test products filter on search input change 1`] = `
+<Provider
+  store={
+    Object {
+      "clearActions": [Function],
+      "dispatch": [Function],
+      "getActions": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+>
+  <BrowserRouter>
+    <Router
+      history={
+        Object {
+          "action": "POP",
+          "block": [Function],
+          "createHref": [Function],
+          "go": [Function],
+          "goBack": [Function],
+          "goForward": [Function],
+          "length": 1,
+          "listen": [Function],
+          "location": Object {
+            "hash": "",
+            "pathname": "/",
+            "search": "",
+            "state": undefined,
+          },
+          "push": [Function],
+          "replace": [Function],
+        }
+      }
+    >
+      <Connect(ContactUs)>
+        <ContactUs
+          dispatch={[Function]}
+          isEmailSent={true}
+          issues={Array []}
+          platforms={Array []}
+          products={Array []}
+          topics={Array []}
+        >
+          <Breadcrumb
+            currentPage="Case Information"
+            items={
+              Array [
+                Object {
+                  "name": "Home",
+                  "path": "/",
+                },
+              ]
+            }
+          >
+            <nav
+              aria-label="breadcrumb"
+            >
+              <ol
+                className="breadcrumb"
+              >
+                <li
+                  className="breadcrumb-item"
+                  key="0"
+                >
+                  <Link
+                    to="/"
+                  >
+                    <LinkAnchor
+                      href="/"
+                      navigate={[Function]}
+                    >
+                      <a
+                        href="/"
+                        onClick={[Function]}
+                      >
+                        Home
+                      </a>
+                    </LinkAnchor>
+                  </Link>
+                </li>
+                <li
+                  aria-current="page"
+                  className="breadcrumb-item active"
+                >
+                  Case Information
+                </li>
+              </ol>
+            </nav>
+          </Breadcrumb>
+          <div
+            className="page_title"
+          >
+            CASE INFORMATION
+          </div>
+          <div
+            className="product_container"
+          >
+            <div
+              className="disclaimer"
+            >
+              *Indicates required field
+            </div>
+            <div
+              className="help-text"
+            >
+              What can we help you with?
+            </div>
+            <div
+              className="help-text"
+            >
+              Select the game or service.*
+            </div>
+            <SearchBar
+              className="search-bar"
+              onKeyPress={[Function]}
+              placeholder="Search any EA product"
+            >
+              <div
+                className="searchbar-container search-bar"
+              >
+                <input
+                  aria-label="Search"
+                  className="form-control mr-sm-2 searchbar-input"
+                  onChange={[Function]}
+                  placeholder="Search any EA product"
+                  type="search"
+                />
+                <i
+                  className="fa fa-search"
+                />
+              </div>
+            </SearchBar>
+            <ImageGrid
+              items={Array []}
+              onSelect={[Function]}
+              title="product"
+            >
+              <div
+                className="images-container"
+              >
+                <div
+                  className="images-grid"
+                />
+              </div>
+            </ImageGrid>
+          </div>
+          <div
+            className="alert alert-success"
+            role="alert"
+          >
+            <span
+              className="close"
+              onClick={[Function]}
+            >
+              ×
+            </span>
+            Email sent successfully
+          </div>
+        </ContactUs>
+      </Connect(ContactUs)>
+    </Router>
+  </BrowserRouter>
+</Provider>
+`;
