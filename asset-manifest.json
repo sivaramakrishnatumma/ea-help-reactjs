@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/ea-help-reactjs/static/css/main.1ca610b6.chunk.css",
+    "main.js": "/ea-help-reactjs/static/js/main.d93b941c.chunk.js",
+    "main.js.map": "/ea-help-reactjs/static/js/main.d93b941c.chunk.js.map",
+    "runtime-main.js": "/ea-help-reactjs/static/js/runtime-main.99a3c74f.js",
+    "runtime-main.js.map": "/ea-help-reactjs/static/js/runtime-main.99a3c74f.js.map",
+    "static/css/2.64a99b10.chunk.css": "/ea-help-reactjs/static/css/2.64a99b10.chunk.css",
+    "static/js/2.5c8d7cd4.chunk.js": "/ea-help-reactjs/static/js/2.5c8d7cd4.chunk.js",
+    "static/js/2.5c8d7cd4.chunk.js.map": "/ea-help-reactjs/static/js/2.5c8d7cd4.chunk.js.map",
+    "index.html": "/ea-help-reactjs/index.html",
+    "precache-manifest.f2834bb0955c3c0152ca9e05276d58ef.js": "/ea-help-reactjs/precache-manifest.f2834bb0955c3c0152ca9e05276d58ef.js",
+    "service-worker.js": "/ea-help-reactjs/service-worker.js",
+    "static/css/2.64a99b10.chunk.css.map": "/ea-help-reactjs/static/css/2.64a99b10.chunk.css.map",
+    "static/css/main.1ca610b6.chunk.css.map": "/ea-help-reactjs/static/css/main.1ca610b6.chunk.css.map"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.99a3c74f.js",
+    "static/css/2.64a99b10.chunk.css",
+    "static/js/2.5c8d7cd4.chunk.js",
+    "static/css/main.1ca610b6.chunk.css",
+    "static/js/main.d93b941c.chunk.js"
+  ]
+}
